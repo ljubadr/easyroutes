@@ -1,7 +1,7 @@
 # Laravel helper package to view routes in browser
 
 # Install
-`composer require ljubadr/easyroutes:dev-master`
+`composer require ljubadr/easyroutes`
 
 Publish config and assets
 
