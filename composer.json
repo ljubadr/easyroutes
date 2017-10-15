@@ -9,6 +9,7 @@
         "helper"
     ],
     "homepage": "https://github.com/ljubadr",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ljubomir Drakulovic",
