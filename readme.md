@@ -20,7 +20,8 @@ Add new provider in `config/app.php`
     ],
 ```
 
-# Opening files in editor by clicking on the class@method name
+# Opening files in editor by clicking on the link in the Action column
+
 ## If you are using IntelliJ IDEA (webstorm, phpstorm, ...)
 Just click on the link in the action column
 
