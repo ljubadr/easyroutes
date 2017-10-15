@@ -1,5 +1,5 @@
 {
-    "name": "ljubadr/easyroute",
+    "name": "ljubadr/easyroutes",
     "type": "library",
     "description": "Web interface for laravel routes",
     "keywords": [
@@ -8,7 +8,7 @@
         "routes",
         "helper"
     ],
-    "homepage": "todo",
+    "homepage": "https://github.com/ljubadr",
     "authors": [
         {
             "name": "Ljubomir Drakulovic",
@@ -25,5 +25,5 @@
                 "Ljubadr\\EasyRoutes\\EasyRoutesServiceProvider"
             ]
         }
-    },
+    }
 }

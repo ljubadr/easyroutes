@@ -1,13 +1,13 @@
 {
   "name": "easyroutes",
   "version": "1.0.0",
-  "description": "https://devdojo.com/blog/tutorials/how-to-create-a-laravel-package",
+  "description": "Laravel helper package to view routes in browser",
   "main": "Gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
