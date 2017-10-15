@@ -1,0 +1,102 @@
+.easy-container {
+  width: 96%; margin: 0 auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* datatable stuff */
+.dtc_action { font-size: 0.9em; word-wrap: break-word }
+
+.top {
+  font-size: 19px;
+  margin-bottom: 10px;
+  min-height: 72px;
+}
+
+/* input width */
+#convertRouteInput { width: 95%; }
+
+/* helper classes */
+.row { padding-bottom: 5px; }
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+.optional-param {color: #13aa52 !important; font-size: 18px;}
+.required-param {color: #3d7096 !important; font-size: 18px;}
+
+.post { background-color: #58cd89 !important; }
+.get { background-color: #61b0e9 !important; }
+.put { background-color: #01c8cf !important; }
+.patch { background-color: #a3a3a3 !important; }
+.delete { background-color: #e66164 !important; }
+.red { background-color: #ff3636 !important; }
+.green { background-color: #00a700 !important; }
+
+.clickable { cursor: pointer; }
+
+.disabled {
+  border: 1px solid #999999 !important;
+  color: #666666 !important;
+  pointer-events: none;
+  cursor: default;
+}
+
+.font-20 { font-size: 20px; }
+.padding-top-15 {
+  padding-top: 15px;
+}
+
+.easy-box {
+  color: white;
+  text-align: center;
+  padding: 1px 1px;
+  font-weight: 800;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+/* update input sizes */
+input[type="text"],
+input[type="search"] {
+  font-size: 18px;
+  padding: 2px;
+}
+
+/* class - action separator */
+.at {
+  color: white;
+  background: #337ab7;
+  padding: 3px;
+  margin: 0 3px;
+  border-radius: 10px;
+}
+
+/* select visible columns classes */
+.toggle-vis {
+  border: 1px solid #61b0e9;
+  padding: 4px;
+  margin: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #61b0e9;
+  background-color: transparent;
+}
+.toggle-vis.visible {
+  color: #ffffff;
+  box-shadow: 4px 4px 1px 0px #878787;
+  background-color: #4e96c9;
+}
+/* align text */
+.visible-text {
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+}

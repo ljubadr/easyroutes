@@ -1,0 +1,26 @@
+{
+  "name": "easyroutes",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datatables": "datatable#^1.10.16",
+    "bootstrap-growl": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "select2": "^4.0.4",
+    "datatables.mark.js": "^2.0.1",
+    "mark.js": "^8.11.0",
+    "flexbox-grid": "*"
+  },
+  "devDependencies": {
+  }
+}
