@@ -1,5 +1,5 @@
 .easy-container {
-  width: 96%; margin: 0 auto;
+  width: 98%; margin: 0 auto;
   margin: 0 auto;
   padding: 20px;
 }
@@ -99,4 +99,8 @@ input[type="search"] {
   height: 35px;
   line-height: 35px;
   vertical-align: middle;
+}
+
+.select2-container {
+  width: 100% !important;
 }
