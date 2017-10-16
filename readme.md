@@ -1,5 +1,7 @@
 # Laravel helper package to view routes in browser
 
+![Screenshot](/screenshot.png?raw=true "Screenshot with laravel voyager")
+
 # Install
 `composer require ljubadr/easyroutes`
 
