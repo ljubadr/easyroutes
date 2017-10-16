@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ljubadr\\EasyRoutes\\EasyRoutesServiceProvider"
+                "Ljubadr\\EasyRoutes\\Providers\\EasyRoutesServiceProvider"
             ]
         }
     },
