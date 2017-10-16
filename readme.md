@@ -7,7 +7,10 @@
 After EasyRoutes install, config is copied to `config/easyroutes.php`.  
 Readd read comments for more explanation.
 
-# Add ServiceProvider  
+## Publish config and assets  
+`php artisan vendor:publish --provider="Ljubadr\EasyRoutes\Providers\EasyRoutesServiceProvider"`
+
+## For laravel up to and 5.4, add ServiceProvider  
 Add EasyRoutesServiceProvider provider to the providers array in `config/app.php`  
 
 ```
@@ -26,8 +29,3 @@ Just click on the link in the action column
 ## If you are using sublime, vscode, atom, ...  
 Go to repository and follow instructions to setup opening files with url  
 https://github.com/ljubadr/editor-web-open
-
-# Dev stuff
-
-## Publish config and assets  
-`php artisan vendor:publish --provider="Ljubadr\EasyRoutes\Providers\EasyRoutesServiceProvider"`
