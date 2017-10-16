@@ -24,13 +24,13 @@ class EasyRoutesServiceProvider extends ServiceProvider
             require $path.'/routes/web.php';
         }
 
-        // php artisan vendor:publish --provider="Ljubadr\EasyRoutes\EasyRoutesServiceProvider" --tag="config"
+        // php artisan vendor:publish --provider="Ljubadr\EasyRoutes\Providers\EasyRoutesServiceProvider" --tag="config"
         $this->publishes([
             $path.'/config/easyroutes.php' => config_path('easyroutes.php'),
         ], 'config'); // 'config' tag
 
 
-        // php artisan vendor:publish --provider="Ljubadr\EasyRoutes\EasyRoutesServiceProvider" --tag="assets"
+        // php artisan vendor:publish --provider="Ljubadr\EasyRoutes\Providers\EasyRoutesServiceProvider" --tag="assets"
         $this->publishes([
             $path.'/dist' => public_path('vendor/easyroutes'),
         ], 'assets'); // 'public' tag
