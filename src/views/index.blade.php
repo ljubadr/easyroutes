@@ -47,7 +47,7 @@
         </div>
 
         <div class="col-4">
-          <span class="pull-right">
+          <span class="">
             <select id="previousRoutes"></select>
           </span>
         </div>
