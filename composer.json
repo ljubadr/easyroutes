@@ -33,11 +33,14 @@
         }
     },
     "scripts": {
+        "post-create-project-cmd": [
+            "php artisan vendor:publish --provider=\"Ljubadr\\EasyRoutes\\Providers\\EasyRoutesServiceProvider\""
+        ],
         "post-install-cmd": [
             "php artisan vendor:publish --provider=\"Ljubadr\\EasyRoutes\\Providers\\EasyRoutesServiceProvider\""
         ],
         "post-update-cmd": [
-            "php artisan vendor:publish --provider=\"Ljubadr\\EasyRoutes\\Providers\\EasyRoutesServiceProvider\" --tag=\"assets\""
+            "php artisan vendor:publish --provider=\"Ljubadr\\EasyRoutes\\Providers\\EasyRoutesServiceProvider\" --tag=assets --force"
         ]
     }
 }
