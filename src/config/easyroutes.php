@@ -19,9 +19,10 @@ return [
   /*
     Highlight search results in the table
     This is done by mark.js plugin, and it can be slow in some cases
-    that's why it's off by default
+
+    Disable table filtering is slow
    */
-  'highlight_search' => false,
+  'highlight_search' => true,
 
   /*
     Leave empty if server is running on host machine
