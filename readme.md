@@ -16,20 +16,12 @@ This is a package that I created to help me speed up the laravel developement.
 
 ## Table of Contents
 * [Install](#install)
+* [Provider](#provider)
 * [Publish](#publish)
 * [Config](#config)
-* [Provider](#provider)
 
 ## Install
 `composer require ljubadr/easyroutes`
-
-## Publish
-Publish config and assets  
-`php artisan vendor:publish --provider="Ljubadr\EasyRoutes\Providers\EasyRoutesServiceProvider"`
-
-## Config
-Config is copied to `config/easyroutes.php`.  
-Read comments for more explanation.
 
 ## Provider
 For laravel up to and 5.4, add ServiceProvider  
@@ -42,6 +34,14 @@ Add EasyRoutesServiceProvider provider to the providers array in `config/app.php
          ...
     ],
 ```
+
+## Publish
+Publish config and assets  
+`php artisan vendor:publish --provider="Ljubadr\EasyRoutes\Providers\EasyRoutesServiceProvider"`
+
+## Config
+Config is copied to `config/easyroutes.php`.  
+Read comments for more explanation.
 
 ## Opening files in editor by clicking on the link in the Action column
 
