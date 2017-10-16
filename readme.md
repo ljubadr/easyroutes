@@ -20,14 +20,18 @@ This is a package that I created to help me speed up the laravel developement.
 * [Publish](#publish)
 * [Config](#config)
 
-## Install
-`composer require ljubadr/easyroutes`
+## Installation
+```bash
+composer require ljubadr/easyroutes
+```
 
-## Provider
-For laravel up to and 5.4, add ServiceProvider  
+### For Laravel 5.5 +
+This package can be auto discovered by Laravel.
+
+### For Laravel 5.4 or disabled package discovery
 Add EasyRoutesServiceProvider provider to the providers array in `config/app.php`  
 
-```
+```php
     'providers' => [
         ...
          Ljubadr\EasyRoutes\Providers\EasyRoutesServiceProvider::class,
@@ -41,7 +45,7 @@ Publish config and assets
 
 ## Config
 Config is copied to `config/easyroutes.php`.  
-Read comments for more explanation.
+Read comments for more info about the settings.
 
 ## Opening files in editor by clicking on the link in the Action column
 
