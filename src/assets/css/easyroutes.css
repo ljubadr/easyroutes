@@ -35,7 +35,6 @@
 .clickable { cursor: pointer; }
 
 .disabled {
-  border: 1px solid #999999 !important;
   color: #666666 !important;
   pointer-events: none;
   cursor: default;
