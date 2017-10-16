@@ -2,17 +2,25 @@
 
 ![Screenshot](/screenshot.png?raw=true "Screenshot with laravel voyager")
 
-# Install
+## Table of Contents
+* [Install](#install)
+* [Publish](#publish)
+* [Config](#config)
+* [Provider](#provider)
+
+## Install
 `composer require ljubadr/easyroutes`
 
-# Edit config file  
-After EasyRoutes install, config is copied to `config/easyroutes.php`.  
-Readd read comments for more explanation.
-
-## Publish config and assets  
+## Publish
+Publish config and assets  
 `php artisan vendor:publish --provider="Ljubadr\EasyRoutes\Providers\EasyRoutesServiceProvider"`
 
-## For laravel up to and 5.4, add ServiceProvider  
+## Config
+Config is copied to `config/easyroutes.php`.  
+Read comments for more explanation.
+
+## Provider
+For laravel up to and 5.4, add ServiceProvider  
 Add EasyRoutesServiceProvider provider to the providers array in `config/app.php`  
 
 ```
@@ -23,11 +31,12 @@ Add EasyRoutesServiceProvider provider to the providers array in `config/app.php
     ],
 ```
 
-# Opening files in editor by clicking on the link in the Action column
+## Opening files in editor by clicking on the link in the Action column
 
-## If you are using IntelliJ IDEA (webstorm, phpstorm, ...)  
-Just click on the link in the action column
+### If you are using IntelliJ IDEA (webstorm, phpstorm, ...)  
+If you are using virtual machine for your dev server, read `config/easyroutes.php` how to setup mapping.
+To open the file in editor click on the link in the `action` column.
 
-## If you are using sublime, vscode, atom, ...  
+### If you are using sublime, vscode, atom, ...  
 Go to repository and follow instructions to setup opening files with url  
 https://github.com/ljubadr/editor-web-open
