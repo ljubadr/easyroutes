@@ -3,7 +3,8 @@
 ![Screenshot](/screenshot.png?raw=true "Screenshot with laravel voyager")
 
 This is a package that I created to help me speed up the laravel developement.  
-Features:
+
+## Features:
 - search for the route by url
 - search history
 - toggle columns visibility
