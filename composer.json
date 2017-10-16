@@ -31,5 +31,13 @@
                 "Ljubadr\\EasyRoutes\\EasyRoutesServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish --provider=\"Ljubadr\\EasyRoutes\\Providers\\EasyRoutesServiceProvider\""
+        ],
+        "post-update-cmd": [
+            "php artisan vendor:publish --provider=\"Ljubadr\\EasyRoutes\\Providers\\EasyRoutesServiceProvider\" --tag=\"assets\""
+        ]
     }
 }
