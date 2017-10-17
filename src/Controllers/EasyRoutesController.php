@@ -122,7 +122,7 @@ class EasyRoutesController extends Controller
       }
 
       $allRoutes[] = [
-        'method'     => $route->methods()[0],
+        'method'     => $route->methods(),
         'as'         => $route->getName(),
         'route'      => $route->uri(),
         'link'       => ! empty($fileName)

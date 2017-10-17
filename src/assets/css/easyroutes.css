@@ -24,8 +24,9 @@
 .optional-param {color: #13aa52 !important; font-size: 18px;}
 .required-param {color: #3d7096 !important; font-size: 18px;}
 
-.post { background-color: #58cd89 !important; }
+.head { background-color: #828282 !important; }
 .get { background-color: #61b0e9 !important; }
+.post { background-color: #58cd89 !important; }
 .put { background-color: #01c8cf !important; }
 .patch { background-color: #a3a3a3 !important; }
 .delete { background-color: #e66164 !important; }
@@ -46,9 +47,11 @@
 }
 
 .easy-box {
+  display: inline-block;
   color: white;
   text-align: center;
-  padding: 1px 1px;
+  margin: 0 1px;
+  padding: 3px;
   font-weight: 800;
 }
 

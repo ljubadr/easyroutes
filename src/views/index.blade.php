@@ -266,10 +266,11 @@
                 data:       "method",
                 name:       "method",
                 className:  "dtc_method",
-                width:      "20px",
                 render: function( data, type, row ) {
                   // data values are: POST, GET, PUT, PATCH...
-                  return '<div class="'+ data.toLowerCase(data)+' easy-box">'+data+'</div>';
+                  return data.map(function(element) {
+                    return '<div class="'+ element.toLowerCase()+' easy-box">'+element+'</div>';
+                  }).join('');
                 }
               },
               {
