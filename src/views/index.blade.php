@@ -347,9 +347,11 @@
                         currentColor = randomColorCache[ middlewareName ];
 
                       } else {
-                        randomColorCache[ middlewareName ] = colors.shift();
+                        currentColor = colors.shift();
 
-                        colors.push( randomColorCache[ middlewareName ] );
+                        randomColorCache[ middlewareName ] = currentColor;
+
+                        colors.push( currentColor );
                       }
 
                       return '<span style="color: '+currentColor+';">'+middlewareName+'</span>';
